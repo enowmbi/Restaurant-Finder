@@ -1,7 +1,6 @@
 #### Food Finder ####
 #
-# Launch this Ruby file from the command line 
-# to get started.
+# Launch this Ruby file from the command line to begin.
 #
 
 APP_ROOT = File.dirname(__FILE__)
