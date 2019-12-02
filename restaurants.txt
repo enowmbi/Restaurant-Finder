@@ -1,7 +1,7 @@
-Hot Tamale	Mexican	25
-Cafe Masala	Indian	30
-pita pocket	Fast food	10
+Tuco Salamanka	Mexican	25
+Cafe Priya	Indian	30
+Pinochio's	Fast food	10
 Quick Cup	coffee	5
-Taste of Little Italy	pizza	10
-Mallard House	New American	35
-pinochios	African	45
+Almani Square	pizza	10
+Trevor House	New American	35
+Favour's Place	African	45
