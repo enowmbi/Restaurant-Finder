@@ -4,7 +4,7 @@ Borrows heavily from Ruby on Rails' number_to_currency view helper.
 =end
 
 module NumberHelper
-  
+
   def number_to_currency(number, options={})
     unit      = options[:unit]      || '$'
     precision = options[:precision] || 2
@@ -19,7 +19,7 @@ module NumberHelper
       i -= 3
       integer = integer.insert(i,delimiter)
     end
-    
+
     if precision == 0
       precise_decimal = ''
     else
@@ -30,8 +30,8 @@ module NumberHelper
       # make sure the decimal is not too short
       precise_decimal = decimal.ljust(precision, "0")
     end
-    
+
     return unit + integer + separator + precise_decimal
   end
-  
+
 end
